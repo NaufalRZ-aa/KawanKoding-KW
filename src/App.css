@@ -1,38 +1,82 @@
-.App {
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #319795;
+}
+
+.nav-link{
+  color: white!important;
+}
+
+.jumbotron {
+  height: 300px;
+  background-color: #E9FFFB!important;
+}
+
+.jumbotron .coba {
+  margin-top: 50px;
+}
+
+.coba p {
+  color: #38B2AC;
+  font-size: 24px;
+}
+
+.kelas h3 {
+  border-bottom: 3px solid #CBD5E0;
+  margin-right: 850px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 16px!important;
+  font-weight: bold!important;
+}
+
+.tombol {
   text-align: center;
+  margin-bottom: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-center {
+  height: 700px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border-bottom: 2px solid grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-center p {
+  font-size: 18px;
+  margin-bottom: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.foto {
+  border: 5px solid lightblue;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.kontak{
+  height: 200px;
+  padding-top: 30px;
+}
+
+.kontak a {
+  display: block;
+}
+
+.footer {
+  height: 40px;
+  background-color: #44505E;
+  padding-top: 6px;
+}
+
+.footer p{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center;
 }
